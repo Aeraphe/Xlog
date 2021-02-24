@@ -1,6 +1,6 @@
 VERSION 1.0 CLASS
 BEGIN
-  MultiUse = -1  'True
+MultiUse = -1  'True
 END
 Attribute VB_Name = "Xlog"
 Attribute VB_GlobalNameSpace = False
@@ -34,6 +34,9 @@ End Sub
 '
 'Set Log Message
 '
+'@param[Integer] messageType 
+'@param["String"] messageText
+'@param[String] filePath
 '*/
 Public Function message(messageType As Integer, messageText As String,Optional filePath)
  
